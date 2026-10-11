@@ -1,0 +1,6 @@
+{
+  "name": "ApexHost - Domain Registrar, DNS & Web Hosting",
+  "description": "Full-stack Domain Registrar, DNS Zone Records manager, Web Hosting file manager with React/Vite preview, SSL certificates, and virtual database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

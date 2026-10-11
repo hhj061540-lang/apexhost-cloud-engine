@@ -1,0 +1,28 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting. Do not change this entry.
+##
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+
+# -------------------------------------------------------------
+# ApexHost Cloud Virtual DNS Resolution Overrides
+# Resolves NXDOMAIN (DNS_PROBE_FINISHED_NXDOMAIN) for custom domains
+# -------------------------------------------------------------
+127.0.0.1       neural-stack.ai
+76.76.21.21     neural-stack.ai
+76.76.21.21     ns1.apexhost-dns.com
+76.76.21.21     ns2.apexhost-dns.com
+
+# Featured Sandbox Domains (ApexHost Edge 76.76.21.21 / 127.0.0.1:5902)
+127.0.0.1       reactvite-5902.dev
+76.76.21.21     reactvite-5902.dev
+127.0.0.1       reactvite-app.dev
+76.76.21.21     reactvite-app.dev
+127.0.0.1       cloudedge-fast.io
+76.76.21.21     cloudedge-fast.io
+127.0.0.1       apex-cluster.app
+76.76.21.21     apex-cluster.app
